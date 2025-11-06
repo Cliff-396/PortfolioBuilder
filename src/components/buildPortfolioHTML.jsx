@@ -11,7 +11,43 @@ const buildPortfolioHTML = (formData) => {
   const skills = safe(formData.skills).split("\n").filter(Boolean);
   const projects = safe(formData.projects).split("\n").filter(Boolean);
   const contact = safe(formData.contact) || "email@example.com";
-
+  /**
+   * decs: Add a theme input field
+   * date: 5th Nov, 2025
+   * (i am commenting it out becouse i think i dont need it a this poin)
+   **/
+  /* let themeStyles = "";
+  switch (data.theme) {
+    case "light":
+      themeStyles = `
+      body { background: linear-gradient(135deg, #ffffff, #f0f0f0); color: #333; }
+      .container { background: rgba(255,255,255,0.9); color: #222; }
+      h1, h3 { color: #0072ff; }
+      .skill { background: #0072ff; color: white; }
+    `;
+      break;
+    case "blue":
+      themeStyles = `
+      body { background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; }
+      .container { background: rgba(255,255,255,0.1); }
+      h1, h3 { color: #00c6ff; }
+      .skill { background: linear-gradient(90deg,#0072ff,#00c6ff); color:white; }
+    `;
+      break;
+    case "purple":
+      themeStyles = `
+      body { background: linear-gradient(135deg,#41295a,#2F0743); color: #fff; }
+      .container { background: rgba(255,255,255,0.08); }
+      h1, h3 { color: #d16ba5; }
+      .skill { background: linear-gradient(90deg,#d16ba5,#c777b9); color:white; }
+    `;
+      break;
+    default:
+      themeStyles = `
+      body { background: linear-gradient(135deg,#1a1a2e,#16213e); color:#fff; }
+    `;
+  }
+*/
   return `<!doctype html>
 <html lang="en">
 <head>

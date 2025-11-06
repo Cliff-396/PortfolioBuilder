@@ -85,6 +85,25 @@ const FormSection = ({ formData, setFormData }) => {
               />
             </div>
           ))}
+
+        {/* Theme Selector */}
+        {/*<div className="flex flex-col sm:col-span-2">
+          <label className="capitalize font-semibold text-gray-700 mb-2 text-sm tracking-wide">
+            Theme
+          </label>
+          <select
+            name="theme"
+            value={formData.theme}
+            onChange={handleChange}
+            className="border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:outline-none text-gray-800 text-base"
+          >
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+            <option value="blue">Ocean Blue</option>
+            <option value="purple">Elegant Purple</option>
+          </select>
+        </div>
+        */}
       </div>
     </div>
   );
