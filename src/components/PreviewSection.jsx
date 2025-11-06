@@ -97,7 +97,7 @@ const PreviewSection = ({
             onClick={() => {
               //  Fancy toast for starting download
               toast.loading(
-                " Downloading your website... please wait a moment.",
+                " 📥 Downloading your website... please wait a moment.",
                 {
                   position: "top-center",
                   theme: "colored",
