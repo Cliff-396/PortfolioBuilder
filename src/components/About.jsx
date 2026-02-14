@@ -15,7 +15,7 @@ const About = () => {
           About <span className="text-purple-600">NeuroBuild Innovations</span>
         </h1>
         <p className="text-lg text-gray-700 mb-12 leading-relaxed">
-          At <strong>NeuroBuild Innovations</strong>, we help individuals and
+          At <strong>Notion BTD</strong>, we help individuals and
           businesses transform their ideas into modern, AI-powered web and
           mobile experiences. Our mission is simple — build smart, elegant, and
           high-performing digital solutions that make your work faster and more

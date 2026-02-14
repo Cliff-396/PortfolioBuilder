@@ -40,7 +40,7 @@ const Footer = () => {
           <FaWhatsapp />
         </a>
         <a
-          href="mailto:contact@neurobuild.dev"
+          href="mailto:contact@notionbtd.dev"
           className="hover:text-red-400 transition-colors duration-300"
         >
           <FaEnvelope />
