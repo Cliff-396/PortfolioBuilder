@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md px-6 py-4 flex justify-between items-center sticky top-0 z-50">
       {/* Brand */}
-      <h1 className="text-2xl font-bold text-indigo-600">NeuroBuild</h1>
+      <h1 className="text-2xl font-bold text-indigo-600">Notion BTD</h1>
 
       {/* Desktop Links */}
       <div className="hidden md:flex gap-6">
