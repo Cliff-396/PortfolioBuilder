@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="fixed bottom-0 left-0 w-full bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-gray-300 text-center py-5 shadow-inner border-t border-gray-700 z-50">
       <p className="text-sm md:text-base">
         © {currentYear}{" "}
-        <span className="text-blue-400 font-semibold">NeuroBuild</span> — All
+        <span className="text-blue-400 font-semibold">Notion BTD</span> — All
         rights reserved.
       </p>
 
